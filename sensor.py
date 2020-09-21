@@ -18,7 +18,6 @@ class Sensor:
         direction: (Vec3) z axis of the end effector wrt Global Coordinates.
         """
         pass
-	pass
 
     def update_pos(self, dx, dy, dz):
         """
