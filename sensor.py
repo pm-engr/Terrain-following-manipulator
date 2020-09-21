@@ -1,6 +1,6 @@
 from vec3 import Vec3
 
-
+#just checking if i am able to run git properly
 class Sensor:
     def __init__(self, x, y):
         # relative_pos = Vec3(x, y, 0)     # position relative to end effectors origin
@@ -18,6 +18,7 @@ class Sensor:
         direction: (Vec3) z axis of the end effector wrt Global Coordinates.
         """
         pass
+	pass
 
     def update_pos(self, dx, dy, dz):
         """
